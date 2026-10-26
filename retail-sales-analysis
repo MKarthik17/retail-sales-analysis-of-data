@@ -1,0 +1,72 @@
+Retail Sales Analysis Using Python and SQL
+
+About the Project
+
+This project analyzes retail sales data to understand sales performance, product profitability, customer spending, and regional business performance. Python and SQL are used to explore the data and identify useful business insights.
+
+Technologies Used
+
+- Python
+- Pandas
+- SQL
+- Matplotlib
+- SQLite
+
+Project Features
+
+- Clean and prepare retail sales data.
+- Calculate total sales, profit, and profit margin.
+- Analyze monthly sales trends.
+- Compare profit across product subcategories.
+- Identify top customers and regional performance.
+- Find products or subcategories generating losses.
+- Explore the impact of discounts on profit.
+
+Project Structure
+
+```text
+retail-sales-analysis/
+├── README.md
+├── analysis.py
+├── queries.sql
+├── requirements.txt
+└── data/
+    └── README.txt
+```
+
+How to Run the Project
+
+1. Install Python on your computer.
+2. Download or clone this repository.
+3. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Place the `superstore.csv` dataset inside the `data` folder.
+5. Run the Python script:
+
+```bash
+python analysis.py
+```
+
+Expected Outputs
+
+- Monthly sales trend chart.
+- Profit by product subcategory chart.
+- Sales and profit summary.
+- Discount-related profit analysis.
+- SQL-based business insights.
+
+Dataset
+
+The project uses a retail sales dataset in CSV format. Place the dataset at `data/superstore.csv` before running the script. The dataset is not included in this repository by default.
+
+Learning Outcomes
+
+This project helped me practice data cleaning, exploratory data analysis, SQL queries, data visualization, and interpreting business performance using Python.
+
+Author
+
+Karthik
